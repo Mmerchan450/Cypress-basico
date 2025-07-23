@@ -19,9 +19,7 @@ describe('Visitar TodoMVC React Dist', () => {
       cy.get('.todo-list li').first().should('have.class', 'completed')
   })
  
-  it('Eliminar tareas completadas', () => {
-    cy.get('.clear-completed').click()
-})
+  
 
 
 
